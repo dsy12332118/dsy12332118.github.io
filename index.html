@@ -377,13 +377,14 @@
 
         .avatar-img {
             position: relative;
-            width: 100%;
-            max-width: 260px;
-            height: auto;
+            width: 260px;
+            height: 260px;
             object-fit: cover;
+            object-position: top center;
             border-radius: 16px;
             border: 1px solid var(--card-border);
             background: var(--bg-secondary);
+            display: block;
         }
 
         .story-text p {
@@ -883,11 +884,13 @@
             }
 
             .avatar-img {
-                max-width: 200px;
-                height: auto;
-                aspect-ratio: 1 / 1;
+                width: 180px;
+                height: 180px;
+                object-fit: cover;
+                object-position: top center;
                 margin: 0 auto;
                 display: block;
+                border-radius: 16px;
             }
 
             .impact-grid {
@@ -1111,7 +1114,7 @@
                     <p class="reveal">2025 年夏天，我从重庆交通大学应用统计学专业毕业，加入小米国际业务部门店建设组，负责全球门店建设数据治理和策略输出。</p>
                     <p class="reveal">巡店期间，我主导重构了门店库存盘点流程——将盘点逻辑从按编码顺序优化为按物理区域分配，结合飞书线上协同，单次盘点时长从半天压缩至 2 小时内，效率提升 80%。</p>
                     <p class="reveal">在逐渐深入业务的过程中，我开始思考：<span class="cyan">用户的真实痛点是什么？怎样才能推动购买决策？</span>我想去离用户更近的地方——</p>
-                    <p class="reveal">这是一次业务自然的延伸。我转岗至墨西哥独立站，负责拉美最大站点的全维度经营与 AI 数字化体系搭建。</p>
+                    <p class="reveal">这是一次业务自然的延伸。我转岗至墨西哥独立站（年营收数亿级），负责拉美最大单一市场的全维度经营与 AI 数字化体系搭建。</p>
                     <p class="highlight reveal">每到一个新岗位，我的第一反应都是：<span class="cyan">"这里有什么重复劳动可以被自动化？"</span></p>
                     <p class="reveal">这个习惯让我从 0 到 1 搭建了 AI 运营能力体系、自动化数据工具矩阵和 Push 智能增长系统，并将沉淀的数智化工具与方法论向海外多站点体系化输出，赋能区域团队。</p>
                     <p class="reveal">我相信：<span class="purple">好的运营不是拼人力堆时长，而是把重复的事交给机器，把创造性的事留给人。</span></p>
